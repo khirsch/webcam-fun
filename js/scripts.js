@@ -49,6 +49,15 @@ function redEffect(pixels) {
   return pixels;
 }
 
+function rgbSplit() {
+  for(let i = 0; i < pixels.data.length; i += 4) {
+    pixels.data[i - 150] = pixels.data[i + 0]; // (R)
+    pixels.data[i + 100] = pixels.data[i + 1]; // (G)
+    pixels.data[i - 150] = pixels.data[i + 2]; // (B)
+  }
+  return pixels;
+}
+
 getVideo();
 
 video.addEventListener('canplay', paintToCanvas);
