@@ -6,11 +6,22 @@
 
 Webcam Fun is the nineteenth of thirty projects in the [JavaScript30](https://javascript30.com/) series.
 
+## Prerequisites
+
+You will need the following things properly installed on your computer:
+
+* [Node.js](https://nodejs.org/en/) (with NPM)
+
 ## Installation
 
-* `git clone https://github.com/khirsch/webcam-fun`
-* `cd webcam-fun`
-* `open index.html`
+* In Terminal:
+  * `git clone https://github.com/khirsch/webcam-fun`
+  * `cd webcam-fun`
+  * `npm install`
+  * `npm start`
+
+* In your browser:
+  * Navigate to `http://localhost:3001`
 
 ## Known Bugs
 
