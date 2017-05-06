@@ -14,14 +14,10 @@ You will need the following things properly installed on your computer:
 
 ## Installation
 
-* In your console:
-  * `git clone https://github.com/khirsch/webcam-fun`
-  * `cd webcam-fun`
-  * `npm install`
-  * `npm start`
-
-* In your browser:
-  * Navigate to `http://localhost:3001`
+* `git clone https://github.com/khirsch/webcam-fun`
+* `cd webcam-fun`
+* `npm install`
+* `npm start`
 
 ## Known Bugs
 
