@@ -14,7 +14,7 @@ You will need the following things properly installed on your computer:
 
 ## Installation
 
-* In Terminal:
+* In your console:
   * `git clone https://github.com/khirsch/webcam-fun`
   * `cd webcam-fun`
   * `npm install`
